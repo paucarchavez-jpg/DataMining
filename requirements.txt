@@ -1,0 +1,7 @@
+streamlit>=1.36
+pandas>=2.2
+plotly>=5.22
+statsmodels>=0.14   # requerido por la linea de tendencia (trendline="ols") en Plotly
+xlrd>=2.0.1         # requerido para leer Date.xls (formato legado)
+openpyxl>=3.1       # por si se exporta Date en formato .xlsx
+pyodbc>=5.1         # opcional: conexion directa a HotelInternational.accdb en Windows
